@@ -1,0 +1,74 @@
+.modal {
+  position: fixed;
+  border: 2px solid #ffff;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  z-index: 9999999;
+  color: #6c757d;
+  top: 25px;
+  background-color: #f7f9fc;
+  padding: 5px 0;
+}
+
+.modal li {
+  width: 100%;
+  padding: 10px 15px;
+}
+
+.modal li:hover {
+  background-color: #fff;
+  color: #1659c7;
+  transition: all 0.8s ease-in;
+}
+
+.country-modal-container {
+  background-color: #fff;
+  position: absolute;
+  top: 60px;
+  padding: 3px 15px;
+  border: 1px solid #f4f1f1;
+  border-radius: 5px;
+  width: 100px;
+  height: fit-content;
+  z-index: 9999;
+}
+
+/* Country Modal  */
+.country-modal li {
+  display: flex;
+  align-items: center;
+  padding: 8px 0;
+  font-size: 14px;
+  color: #6c757d;
+}
+
+.country-img {
+  width: 15px;
+  height: 15px;
+  margin-right: 8px;
+}
+
+/* Profile Modal */
+.profile-modal-container {
+  background-color: #fff;
+  position: absolute;
+  top: 60px;
+  right: -10px;
+  padding: 3px 15px;
+  border: 1px solid #f4f1f1;
+  border-radius: 5px;
+  width: 100px;
+  height: fit-content;
+  z-index: 9999;
+}
+
+.profile-modal li {
+  color: #6c757d;
+  font-size: 14px;
+}
+
+.profile-modal li:hover {
+  opacity: 0.8;
+}
